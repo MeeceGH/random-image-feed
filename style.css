@@ -7,10 +7,27 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: #f6f7fb;
-    overflow: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto 150px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 35px 0 50px;
+}
+
+.img-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.img-container .img-box {
+    margin: 5px;
 }
