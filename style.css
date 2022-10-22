@@ -13,7 +13,7 @@ body {
     align-items: center;
     height: 100vh;
     max-width: 1000px;
-    margin: 0 auto 150px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -28,6 +28,8 @@ h1 {
     flex-wrap: wrap;
 }
 
-.img-container .img-box {
+.img-container img {
     margin: 5px;
+    width: 300px;
+    height: 300px;
 }
